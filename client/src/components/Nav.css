@@ -1,0 +1,32 @@
+.Nav{
+    background-image: linear-gradient(360deg, pink);
+    margin-top: 1.8%;
+    border-bottom: 0.5px solid violet;
+    display: flex;
+    align-items: center;
+    .title{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        margin-left: 80%;
+        gap: 5px;
+    }
+    .settings{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200%;
+        margin-right: -20px;
+    }
+    .logout{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200%;
+        margin-right: -20px;
+        cursor: pointer;
+    }
+}

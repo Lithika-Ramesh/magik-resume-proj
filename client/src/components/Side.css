@@ -1,0 +1,61 @@
+.Side{
+    background-image: linear-gradient(360deg, #7439db, #C66FBC 48%, pink);
+    flex: 2; 
+    border-right: 0.5px solid violet;
+    min-height: 100vh;
+    .top{
+        height: 55px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 0.5px solid violet;
+        background-image: linear-gradient(360deg, pink);
+        .logo{
+            display: block;
+            .resume{
+                color: lightblue;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+    .hr{
+        height: 0;
+        border-bottom: 0.5px solid violet;
+    }
+    .center{
+        padding-left: 10px;
+        border-top: 0.5px solid violet;
+        li{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            cursor: pointer;
+            margin: 20px;
+            background-image: linear-gradient(360deg, pink);
+            border-radius: 10%;
+            border: 10px;
+            &:hover{
+                background-color: #EFD5F1;
+            }
+            span{
+                font-size: 20px;
+                font-weight: 60;
+                font-family:'Times New Roman', Times, serif;
+                color: black;
+                margin: 10px;
+            }
+        }
+    }
+}
+.logo.magik{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo.resume{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}

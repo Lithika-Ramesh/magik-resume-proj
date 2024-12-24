@@ -1,0 +1,119 @@
+.outcard {
+    float: right; 
+    width: 800px; 
+    height: 700px; 
+    padding: 20px;
+    margin-right: 20px; 
+    margin-top: 20px;
+    margin-left: -10px;
+    background-color: #ffffff4b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    
+  }
+
+
+  .btns {
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    height: 40px;
+    width: 800px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.inputs{
+    height: 20px;
+    width: 780px;
+    border: none;
+    border-radius: 5px; 
+}
+
+ /* Hover effect */
+ .btns:hover {
+    background-color: #00000065;
+}
+
+  
+  .title-container {
+    float: left; 
+    width: 500px; 
+    height: 700px; 
+    padding: 20px;
+    margin-left: 20px; 
+    margin-right: 1px;
+    background-color: #0000004b; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    
+  }
+
+  .journey-title {
+    text-align: left; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+  .signin-title{
+    text-align: left; 
+    margin-top: -5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+
+  .title-content {
+    text-align: left; 
+  }
+
+  .logo.magik {
+    text-align: left; 
+    font-size: 40px;
+  }
+
+  .logo.resume {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: rgb(53, 117, 254);
+    text-align: left; 
+    font-size: 40px;
+  }
+
+  .tagline{
+    text-align: left; 
+    font-size: 20px;
+  }
+
+  .description {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+    text-align: left; 
+    font-size: 30px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: rgb(119, 163, 244);
+}
+
+  img {
+    position: absolute; 
+    top: 300px; 
+    right: 900px; 
+    width: 500px; 
+    height: 500px;
+}
+
+.forgot-link{
+    text-align: left; 
+}
+
+.signup-link{
+    text-align: right;
+}

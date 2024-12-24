@@ -1,0 +1,43 @@
+.outcard {
+    float: right; /* Move the container to the right side */
+    width: 800px; /* Adjust the width as needed */
+    height: 700px; /* Adjust the height as needed */
+    margin-right: 20px; /* Add some margin to separate it from other elements */
+    margin-top: 20px;
+    margin-left: 1px;
+    padding: 20px; /* Add padding for spacing inside the container */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #ffffff4b; /* Change the color to dark gray (#333) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+ .tagline2 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; /* Thin variant of Roboto */
+    text-align: left; /* Align the content to the left */
+    font-size: 30px;
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    color: rgb(53, 117, 254);
+
+ }
+
+ .tagline3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; /* Thin variant of Roboto */
+    text-align: left; /* Align the content to the left */
+    font-size: 30px;
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    color: rgb(119, 163, 244);
+ }
+
+  img {
+    position: absolute; 
+    top: 300px; 
+    right: 900px; 
+    width: 500px; 
+    height: 500px;
+}

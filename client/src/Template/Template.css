@@ -1,0 +1,111 @@
+.template {
+    display: flex;
+    width: 100%;
+}
+
+.templateContainer {
+    flex: 7;
+    background-image: linear-gradient(360deg, #7439db, #C66FBC 48%, pink);
+}
+
+.templateImages {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); /* Adjust columns as needed */
+    gap: 20px;
+    justify-content: space-between; /* Adjust gap between images */
+}
+
+.responsiveImage {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; /* Add rounded corners to the images */
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add transition effect */
+}
+
+.templateImage {
+    text-align: center; /* Center-align the content */
+}
+
+.subHeading {
+    margin-top: 10px; /* Add some space between the image and the subheading */
+    font-size: 18px; /* Adjust the font size of the subheading */
+    color: #333; /* Change the color of the subheading text */
+}
+
+/* Add hover effect */
+.templateImage:hover .responsiveImage {
+    transform: scale(1.1); /* Increase size on hover */
+}
+#modal1, #modal2, #modal3, #modal4, #modal5, #modal6,
+#modal7 #modal8 #modal9 #modal10 #modal11 #modal12{
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70%;
+    overflow: auto;
+    background-color: rgb(237, 191, 237);
+    padding-top: 20px;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 900px;
+    max-height: 900px;
+
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smallText {
+    font-size: 18px;
+    color: #36313f;
+    text-underline-offset: 5px;
+    
+}
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.infoBox {
+    border: 5px solid #763a6f;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    align-items: auto;
+    display: flex;
+}
+.tinyImage {
+    width: auto; /* Adjust the width of the tiny image */
+    height: 100px;
+    margin-right: 10px;
+    align-items: center; 
+    object-fit: cover;
+    border-radius: 10px/* Adjust the margin as needed */
+}

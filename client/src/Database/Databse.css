@@ -1,0 +1,23 @@
+.databse{
+    height: 300px;
+    padding: 20px;
+    .cellAction{
+        display: flex;
+        align-self: center;
+        gap: 15px;
+        .editButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px double darkblue;
+            cursor: pointer;
+        }
+        .deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px double crimson;
+            cursor: pointer;
+        }
+    }
+}
